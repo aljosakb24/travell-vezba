@@ -53,4 +53,41 @@ WEB FONTOVI:
   padding: 5px;
 }
 
+.hero {
+  background-image: url(../slike/background.jpeg);
+  background-size: cover;
+  height: 300px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .pretraga {
+  border-radius: 30px;
+  gap: 10px;
+  background-color: #f2f2dd;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+.hero .pretraga button {
+  height: 5em;
+  background: #fb5b5b;
+  border: none;
+  padding: 25px;
+  border-radius: 50px;
+}
+.hero .pretraga button .fa-search {
+  color: white;
+}
+.hero .pretraga input {
+  padding: 15px;
+  border-radius: 20px;
+  display: block;
+}
+.hero .pretraga label {
+  display: block;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */

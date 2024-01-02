@@ -47,3 +47,50 @@
         }
     }
 }
+.hero{
+    background-image: url(../slike/background.jpeg);
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .pretraga {
+        border-radius: 30px;
+        gap: 10px;
+        
+        background-color: $yellow;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        
+        
+        button{
+            height: 5em;
+            background: $red;
+            
+            border: none;
+            padding: 25px;
+            border-radius: 50px;
+            .fa-search{
+                color: white;
+            }
+
+        }
+        
+        input{
+            padding: 15px;
+            border-radius: 20px;
+            display: block;
+            
+        }
+        label{
+            display: block;
+            text-align: center;
+        }
+        
+        
+    }
+
+}
