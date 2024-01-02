@@ -90,4 +90,40 @@ WEB FONTOVI:
   text-align: center;
 }
 
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.gradovi {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.gradovi div {
+  width: 30%;
+  gap: 20px;
+  box-shadow: 4px 5px 13px 2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 5px 13px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 5px 13px 2px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  align-items: center;
+  padding: 15px;
+}
+.gradovi div img {
+  width: 70%;
+  height: 22em;
+  border-radius: 25px;
+  transition: transform 2s;
+}
+.gradovi div img:hover {
+  transform: scale(1.3) rotate3d(0, 1, 0, 3.142rad);
+}
+.gradovi p {
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
