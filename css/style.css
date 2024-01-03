@@ -158,5 +158,64 @@ WEB FONTOVI:
     width: 800px;
   }
 }
+@media screen and (max-width: 600px) {
+  .nav {
+    flex-wrap: wrap;
+  }
+  .nav .logo {
+    padding: 5px;
+    width: 50%;
+  }
+  .nav .nav-menu {
+    display: flex;
+    order: 3;
+    width: 100%;
+  }
+  .nav .nav-menu ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .nav .nav-menu ul li {
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .nav .nav-menu ul li:hover {
+    background-color: white;
+    color: #0e1538;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+  }
+  .nav .login {
+    width: 50%;
+    text-align: right;
+  }
+  .hero {
+    height: 500px;
+  }
+  .hero .pretraga {
+    flex-direction: column;
+  }
+  .hero .pretraga div {
+    width: 100%;
+  }
+  .hero .pretraga div label {
+    text-align: left;
+  }
+  .hero .pretraga div input {
+    width: 100%;
+  }
+  .hero .pretraga button {
+    width: 100%;
+  }
+  .gradovi div {
+    width: 90%;
+  }
+  .footer iframe {
+    width: 350px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
