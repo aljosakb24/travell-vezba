@@ -126,4 +126,19 @@ WEB FONTOVI:
   text-align: center;
 }
 
+.footer {
+  background-color: #0e1538;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 15px;
+}
+.footer div {
+  display: flex;
+}
+.footer div p {
+  font-size: 1.1em;
+  color: white;
+  margin: 1em;
+}
+
 /*# sourceMappingURL=style.css.map */

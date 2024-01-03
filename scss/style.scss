@@ -130,3 +130,23 @@
         text-align: center;
     }
 }
+.footer{
+    background-color: $dark-blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 15px;
+
+    div {
+        display:flex;
+        p{
+            font-size: 1.1em;
+            color: white;
+            margin: 1em;
+        }
+    }
+
+}
+
+@media screen and (max-width:950px){
+    
+}
