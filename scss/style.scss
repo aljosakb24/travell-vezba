@@ -147,6 +147,26 @@
 
 }
 
-@media screen and (max-width:950px){
-    
+@media screen and (max-width:1024px){
+    .pretraga{
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .gradovi{
+        div{
+            width: 40%;
+            margin:20px 0;
+
+        }
+    }
+    .footer{
+        flex-direction: column-reverse;
+        align-items: center;
+
+        iframe{
+            width: 800px;
+
+        }
+    }
 }
